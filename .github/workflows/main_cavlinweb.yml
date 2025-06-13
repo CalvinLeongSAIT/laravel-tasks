@@ -72,7 +72,7 @@ jobs:
         uses: azure/webapps-deploy@v3
         id: deploy-to-webapp
         with:
-          app-name: 'Cavlinweb'
+          app-name: 'msdocs-laravel-mysql-XYZ'
           slot-name: 'Production'
           package: .
           
